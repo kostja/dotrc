@@ -1,0 +1,23 @@
+alias oo='libreoffice'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias l='ls -alF'
+alias ls='ls --color=auto'
+alias la='ls -al --color=auto'
+alias grep='grep --color=auto'
+alias recode='recode -f'
+alias mova='LANG=ru_RU.KOI8-R urxvt -geometry 80x15 -e mova'
+alias fidoterm='LANG=ru_RU.KOI8-R urxvt'
+#alias sqlplus='/soft/oracleclient-8.1.6/bin/sqlplus'
+alias mueller='view ~/local/share/dict/Mueller7GPL.koi'
+alias dirs='dirs -v'
+alias valgrind='valgrind --tool=memcheck'
+alias 55='cd ~/work/mysql/5.5-runtime/sql'
+alias make=/home/kostja/local/bin/make_and_alarm.sh
+alias shakti='ssh -X shakti'
+alias bb=buildbot
+alias mutt='echo -ne "\e];mutt\a"; mutt'
+alias gn=geeknote
+alias scylla='cd /home/kostja/work/scylla/scylla'
+alias ninja='ninja -j3'
+alias cal=ncal
