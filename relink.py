@@ -37,7 +37,7 @@ if __name__ == "__main__":
         print("If invoked with --relink, will perform the following:")
         print("")
 
-    dotrcs = Path(__file__).parent.glob(".*")
+    dotrcs = (Path(__file__).parent / "dotrc").glob(".*")
     dotrcs = filter(lambda f: ".git" not in str(f), dotrcs) 
     for file in dotrcs:
         link(file, options)
