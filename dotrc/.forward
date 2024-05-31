@@ -1,0 +1,1 @@
+"| FS=' ' && p=/usr/bin/procmail && test -f $p && exec $p -Yf- || exit 75 #kostja"
